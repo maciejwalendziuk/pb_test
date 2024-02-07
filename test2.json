@@ -19,9 +19,23 @@
                     "sourcePort": "2_out",
                     "targetNode": "1",
                     "targetPort": "1_in"
+                },
+                {
+                    "id": "port_2_to_port_3",
+                    "sourceNode": "2",
+                    "sourcePort": "2_out",
+                    "targetNode": "3",
+                    "targetPort": "3_in"
+                },
+                {
+                    "id": "port_3_to_port_1",
+                    "sourceNode": "3",
+                    "sourcePort": "3_out",
+                    "targetNode": "1",
+                    "targetPort": "1_in"
                 }
             ],
-            "hash": "87b2468e52f47795b2fb041672833e97225e5725",
+            "hash": "c01c225d01abe6628ec2af8db72b531e6bb8b200",
             "nodes": {
                 "0": {
                     "data": {
@@ -37,7 +51,7 @@
                     "type": "start",
                     "warnings": {},
                     "x": 1000,
-                    "y": 419.9999999999999
+                    "y": 419.9999999999998
                 },
                 "1": {
                     "data": {
@@ -79,6 +93,25 @@
                     "warnings": {},
                     "x": 975,
                     "y": 657.5
+                },
+                "3": {
+                    "data": {
+                        "advanced": {
+                            "join": []
+                        },
+                        "functionId": 1,
+                        "functionName": "code_1",
+                        "id": "3",
+                        "inputParameters": [],
+                        "outputVariables": [],
+                        "type": "code"
+                    },
+                    "errors": {},
+                    "id": "3",
+                    "type": "code",
+                    "warnings": {},
+                    "x": 1196,
+                    "y": 694.5
                 }
             },
             "notes": ""
@@ -90,7 +123,7 @@
         "schema": "5.0.11",
         "version": "6.2.0.355"
     },
-    "create_time": "2024-02-07T16:15:02.437703+00:00",
+    "create_time": "2024-02-07T16:15:52.279905+00:00",
     "draft_mode": false,
     "labels": [
         "*"
